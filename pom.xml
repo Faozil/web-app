@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.8-RELEASE</version>
+	<version>1.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.146.181.189:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.83.48:9000/</sonar.host.url>
 		<sonar.token>squ_e5c245a89cb171dd8d84a8b03d80c7ceb32e5407</sonar.token>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Presenter1.</sonar.password>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Faozil Nexus Repository</name>
-	      <url>http://54.146.181.189:8081/repository/rbc-release/</url>
+	      <url>http://172.31.83.48:8081/repository/rbc-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Faozil Nexus Repository </name>
-	      <url>http://54.146.181.189:8081/repository/rbc-snapshot/</url>
+	      <url>http://172.31.83.48:8081/repository/rbc-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
