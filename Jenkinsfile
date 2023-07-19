@@ -3,7 +3,15 @@ pipeline {
     tools {
         maven 'maven'
     }
+    
     stages {
+        stage('Pulling from git hub'){
+            steps{
+                echo'Pulling code from git hub'
+                git credentialsId: 'Git_MainCred', url: 'https://github.com/Faozil/web-app.git'
+                echo 'Pulling done'
+            }
+        }
         
         stage('Build with Maven'){
             steps{
